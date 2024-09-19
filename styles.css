@@ -1,0 +1,69 @@
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 1.5rem;
+    font-family: cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 10px;
+    display:inline-flex;
+    justify-content: center;
+    
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    margin: 8px;
+    background-color: white;
+    
+  }
+  
+  .about-section {
+    padding: 20px;
+    text-align: center; /* Centers text */
+}
+
+.about-image {
+    max-width: 100%; /* Ensures image scales with the container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .about-section {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+
+  .lead {
+    font-family: Georgia, sans-serif;
+  }
+
+  #title {
+    font-size: 50px;
+    color: #142024;
+    font-family: Georgia, sans-serif;
+    text-shadow: 3px 0 #10deae;
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: 3px solid black; 
+  }
+
+
+  body {
+    background-image:url(https://img.freepik.com/free-vector/colorful-gradient-background-modern-design_361591-4679.jpg?w=1380&t=st=1726684043~exp=1726684643~hmac=0d7d09833511629f96d33380870d59495a20defee8df70a59963e4546a1c7c60);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: brightness(113%);
+  }
+
+  
+ 
+  
